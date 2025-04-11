@@ -12,12 +12,16 @@ Plataforma de análise de dados agroindustriais em tempo real com visualizaçõe
 - ⚡ Atualização em tempo real via API
 - 🎨 Design futurista responsivo
 
+🛠 Tecnologias
+https://img.shields.io/badge/Python-3.9+-blue?logo=python
+https://img.shields.io/badge/Streamlit-1.22+-FF4B4B?logo=streamlit
+https://img.shields.io/badge/Plotly-5.10+-3F4F75?logo=plotly
+https://img.shields.io/badge/Pandas-1.5+-150458?logo=pandas
+
 ## 🚀 Começando
 
-Consulte o guia de [instalação](docs/SETUP.md) para configurar o ambiente.
-
 ```bash
-git clone https://github.com/seu-usuario/agrotech-intelligence-platform.git
+git clone https://github.com/SouzaLF/agrotech-intelligence-platform.git
 cd agrotech-intelligence-platform
 pip install -r requirements.txt
 streamlit run app/app1.py
