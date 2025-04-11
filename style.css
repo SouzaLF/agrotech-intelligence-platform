@@ -1,0 +1,199 @@
+:root {
+--primary-gradient: linear-gradient(45deg, #1a2a6c, #3a7bd5);
+--bg-dark: #0a1a2e;
+--text-light: rgba(255,255,255,0.9);
+--card-bg: rgba(10, 25, 47, 0.7);
+}
+
+/* Modo Claro (opcional) */
+@media (prefers-color-scheme: light) {
+:root {
+    --primary-gradient: linear-gradient(45deg, #0047AB, #002366);
+    --bg-dark: #f5f5f5;
+    --text-light: #333;
+    --card-bg: rgba(240, 240, 240, 0.9);
+}
+}
+
+/* Depois substitua todos os valores hardcoded pelas variáveis */
+.stApp {
+    background: var(--bg-dark); 
+    color: var(--text-light);
+}
+
+.stButton>button {
+    background: var(--primary-gradient);
+    /* ... mantém o resto */
+}
+
+/* Fundo metálico escuro com textura sutil */
+.stApp {
+    background: 
+        linear-gradient(135deg, #1a1a1a 0%, #2b2b2b 100%),
+        url('https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600') fixed;
+    background-blend-mode: overlay;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Navbar estilo Apple (frosted glass) */
+.navbar {
+    backdrop-filter: blur(20px);
+    background: rgba(30, 30, 30, 0.7) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Botões estilo Tesla (brilho sutil) */
+.stButton>button {
+    background: linear-gradient(90deg, #4a6cf7 0%, #2546f0 100%);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 12px 28px;
+    font-weight: 500;
+    box-shadow: 0 4px 20px rgba(37, 70, 240, 0.3);
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 25px rgba(37, 70, 240, 0.5);
+}
+
+/* Cards estilo vidro fosco (Glassmorphism) */
+.glass-card {
+    background: rgba(40, 40, 40, 0.6) !important;
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 24px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.1);
+}
+
+.glass-card:hover {
+    transform: scale(1.03);
+    background: rgba(50, 50, 50, 0.8) !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* Efeito de digitação no título */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+.typing-effect {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3.5s steps(40, end);
+}
+
+@media screen and (max-width: 768px) {
+    [data-testid="stDataFrame"] {
+        font-size: 12px;
+    }
+}
+
+/* Tabelas Premium */
+.stDataFrame {
+    border-radius: 12px !important;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15) !important;
+}
+
+/* Cards de Dados */
+.data-card {
+    background: rgba(30, 30, 30, 0.7) !important;
+    border-radius: 12px;
+    border-left: 4px solid #3a7bd5 !important;
+    padding: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.data-card:hover {
+    transform: translateY(-5px);
+    background: rgba(40, 40, 40, 0.9) !important;
+}
+
+/* Tooltips Elegantes */
+.custom-tooltip {
+    background: linear-gradient(45deg, #1a2a6c, #3a7bd5) !important;
+    border-radius: 8px !important;
+    padding: 12px !important;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3) !important;
+}
+
+/* Tema Claro */
+[data-theme="light"] {
+    --bg-color: #f5f5f5;
+    --text-color: #333;
+    --card-bg: rgba(255,255,255,0.9);
+}
+
+/* Tema Escuro */
+[data-theme="dark"] {
+    --bg-color: #0a1a2e;
+    --text-color: rgba(255,255,255,0.9);
+    --card-bg: rgba(10,25,47,0.7);
+}
+
+/* Tema Agricultura */
+[data-theme="agro"] {
+    --bg-color: #f0f7e6;
+    --text-color: #2a4d00;
+    --card-bg: rgba(210, 235, 183, 0.9);
+}
+
+/* Folium Map Container */
+.st-emotion-cache-1v0mbdj {
+    border-radius: 16px !important;
+    overflow: hidden !important;
+    box-shadow: 0 8px 32px rgba(0, 107, 255, 0.2) !important;
+    border: 1px solid rgba(0, 210, 255, 0.3) !important;
+}
+
+/* Popup do Mapa */
+.leaflet-popup-content {
+    font-family: 'Inter', sans-serif !important;
+    background: var(--card-bg) !important;
+    color: var(--text-light) !important;
+    padding: 12px !important;
+    border-radius: 8px !important;
+}
+
+/* Controles do Mapa */
+.leaflet-control {
+    background: rgba(30, 30, 30, 0.8) !important;
+    border-radius: 8px !important;
+    padding: 6px !important;
+}
+
+.leaflet-control-attribution {
+    display: none !important; /* Remove créditos padrão */
+}
+
+.logo-container {
+display: flex;
+align-items: center;
+gap: 10px;
+margin-bottom: 20px;
+}
+
+.logo-text {
+font: bold 28px 'Montserrat', sans-serif;
+background: linear-gradient(90deg, #1a2a6c 0%, #3a7bd5 50%, #00d2ff 100%);
+position: relative;
+}
+
+.logo-text::after {
+content: "🌱";
+position: absolute;
+right: -25px;
+top: -5px;
+font-size: 20px;
+}
+
+.logo-tagline {
+font: italic 10px 'Montserrat';
+color: rgba(255,255,255,0.7);
+letter-spacing: 1px;
+}
