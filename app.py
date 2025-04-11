@@ -450,7 +450,7 @@ with tab2:
 
     # --- Exibição ---
     with st.expander("🔍 Controles Avançados", expanded=True):
-        st_folium(m, width=1510, height=500)
+        st_folium(m, width=1000, height=500)
 
     # --- Sidebar Analytics ---
     with st.sidebar:
