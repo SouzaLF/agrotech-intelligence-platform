@@ -25,4 +25,4 @@ Plataforma de análise de dados agroindustriais em tempo real com visualizaçõe
 git clone https://github.com/SouzaLF/agrotech-intelligence-platform.git
 cd agrotech-intelligence-platform
 pip install -r requirements.txt
-streamlit run app/app1.py
+streamlit run app/app.py
