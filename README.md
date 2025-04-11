@@ -26,3 +26,5 @@ git clone https://github.com/SouzaLF/agrotech-intelligence-platform.git
 cd agrotech-intelligence-platform
 pip install -r requirements.txt
 streamlit run app/app.py
+
+🌐 [Link da Plataforma](https://agrotech-intelligence-platform.streamlit.app/)
