@@ -221,7 +221,7 @@ def convert_df(df, format_type):
 # --- Header Holográfico ---
 col1, col2 = st.columns([1, 3])
 with col1:
-    st.image("assets/logo.svg", width=200)  # Logo fictício
+    st.image("logo.svg", width=200)  # Logo fictício
 with col2:
     st.title("AGROTECH INTELLIGENCE PLATFORM")
     st.markdown("""<div style="opacity:0.8;margin-top:-15px;">ANÁLISE EM TEMPO REAL DO AGRONEGÓCIO BRASILEIRO</div>""", 
