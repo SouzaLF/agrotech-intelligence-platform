@@ -13,10 +13,11 @@ Plataforma de análise de dados agroindustriais em tempo real com visualizaçõe
 - 🎨 Design futurista responsivo
 
 🛠 Tecnologias
-https://img.shields.io/badge/Python-3.9+-blue?logo=python
-https://img.shields.io/badge/Streamlit-1.22+-FF4B4B?logo=streamlit
-https://img.shields.io/badge/Plotly-5.10+-3F4F75?logo=plotly
-https://img.shields.io/badge/Pandas-1.5+-150458?logo=pandas
+
+<img src="[URL_da_Imagem](https://img.shields.io/badge/Python-3.9+-blue?logo=python)" alt="Texto Alternativo">
+<img src="[URL_da_Imagem](https://img.shields.io/badge/Streamlit-1.22+-FF4B4B?logo=streamlit)" alt="Texto Alternativo">
+<img src="[URL_da_Imagem](https://img.shields.io/badge/Plotly-5.10+-3F4F75?logo=plotly)" alt="Texto Alternativo">
+<img src="[URL_da_Imagem](https://img.shields.io/badge/Pandas-1.5+-150458?logo=pandas)" alt="Texto Alternativo">
 
 ## 🚀 Começando
 
