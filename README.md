@@ -1,6 +1,6 @@
 # 🌱 Agrotech Intelligence Platform
 
-![Website Preview]([assets/images/dashboard_preview.png]([https://agrotech-intelligence-platform-gtqykccvbdv35xjjufbevo.streamlit.app/](https://agrotech-intelligence-platform-gtqykccvbdv35xjjufbevo.streamlit.app/)))
+![AgroTech Intelligence Platform · Streamlit_page-0001 png](https://github.com/user-attachments/assets/fe668260-e90a-4c49-a33d-0c0d320cf4cf)
 
 Plataforma de análise de dados agroindustriais em tempo real com visualizações interativas e painéis estratégicos.
 
